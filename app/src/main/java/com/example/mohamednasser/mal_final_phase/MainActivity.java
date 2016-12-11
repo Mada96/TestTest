@@ -28,6 +28,7 @@ public  class MainActivity extends AppCompatActivity implements MovieListener, M
  in both tow pane and one pane we have to set the first fragment
   */
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         MainFragment mainFragment = new MainFragment();

@@ -31,7 +31,7 @@
             >
 
             <ImageView
-                android:layout_width="207dp"
+                android:layout_width="364dp"
                 android:layout_height="206dp"
                 android:id="@+id/imageView" />
 
